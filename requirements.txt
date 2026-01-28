@@ -1,0 +1,10 @@
+blinker==1.9.0
+click==8.1.8
+Flask==3.1.2
+-e git+ssh://git@github.com/AndreReis34/flask-tutorial_AndreReis_.git@666a680cd48bf6d972803fd7777517582cc09ae5#egg=flaskr
+importlib_metadata==8.7.1
+itsdangerous==2.2.0
+Jinja2==3.1.6
+MarkupSafe==3.0.3
+Werkzeug==3.1.5
+zipp==3.23.0

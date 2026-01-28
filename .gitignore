@@ -1,0 +1,16 @@
+/instance/
+
+# PyCharm/IntelliJ
+.idea/
+*.iml
+
+# Ambiente Virtual
+venv/
+.venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+tests/
+Teste_Jinja/

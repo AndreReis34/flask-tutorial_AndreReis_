@@ -28,10 +28,11 @@ def register():
                 ''', (username, generate_password_hash(password)))
                 db.commit()
             except db.IntegrityError:
-                error = f'Username {username} already exists.'
+                error = f'User {username} is already registered.'
             else:
                 return redirect(url_for('auth.login'))
         flash(error)
+
     return render_template('auth/register.html')
 
 @bp.route('/login', methods=('GET', 'POST'))
