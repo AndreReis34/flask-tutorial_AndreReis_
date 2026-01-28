@@ -1,10 +1,20 @@
 blinker==1.9.0
 click==8.1.8
+coverage==7.10.7
+exceptiongroup==1.3.1
 Flask==3.1.2
--e git+ssh://git@github.com/AndreReis34/flask-tutorial_AndreReis_.git@666a680cd48bf6d972803fd7777517582cc09ae5#egg=flaskr
+-e git+ssh://git@github.com/AndreReis34/flask-tutorial_AndreReis_.git@ddfa3306bb44ca738387e0983e8e728c6bdea302#egg=flaskr
 importlib_metadata==8.7.1
+iniconfig==2.1.0
 itsdangerous==2.2.0
 Jinja2==3.1.6
 MarkupSafe==3.0.3
+packaging==26.0
+pluggy==1.6.0
+Pygments==2.19.2
+pytest==8.4.2
+tomli==2.4.0
+typing_extensions==4.15.0
+waitress==3.0.2
 Werkzeug==3.1.5
 zipp==3.23.0
